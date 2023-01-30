@@ -16,10 +16,11 @@ if (turtle == "Leonardo"){
 
 let turtleVillains = String()
 
-if (turtleVillains == "Shredder"){
+switch turtleVillains {
+case "Shredder":
     print("Tonight I dine on turtle soup.")
-}else if (turtleVillains == "Krang"){
+case "Krang":
     print("I HATE Turtles, I despise Turtles!")
-}else {
+default:
     print("Oh no! It must be the Foot Clan")
 }
